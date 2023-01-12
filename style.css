@@ -1,0 +1,11 @@
+body{
+    background-color: aqua;
+}
+.header h1{
+    background-color: azure;
+    color: red;
+}
+
+.main-block{
+    color: black;
+}
