@@ -1,11 +1,104 @@
 body{
-    background-color: aqua;
+    background-color: #172626;
+    margin: 0;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    box-shadow: 10px 11px 20px 0px #2d2d2d;
+}
+
 .header h1{
-    background-color: azure;
-    color: red;
+    color: white;
+    margin: 0;
+}
+
+.header ul{
+    list-style: none;
+    font-size: 17px;
+    display: flex;
+    gap: 50px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
 }
 
 .main-block{
-    color: black;
+    top: 50px;
+    position: relative;
+    padding-left: 50px;
+    height: 1000px;
 }
+
+.school{
+    text-align: center;
+}
+
+.main-block a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+ }
+
+.main-block p{
+    color: white;
+    font-size: 19px;
+}
+
+.class-9{
+    box-shadow: 3px 2px 20px 1px #3a3a3a;
+    height: 100px;
+    color: white;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+}
+
+.class-9 h2{
+    margin-left: 200px;
+}
+
+.class-9 ul{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.class-9 a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.main-block{
+    color: white;
+    text-align: center;
+ }
+
+.journal{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+.aizirek{
+    box-shadow: 6px 2px 20px 1px #1b0c0c;
+    width: 300px;
+    height: 400px;
+    padding: 10px 10px 0 10px;
+}
+
+.aizirek img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
